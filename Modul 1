@@ -1,16 +1,17 @@
 int main()
 {
-    //Задача 1
+    // Задача 1
+    double q;
+    cout << "solve example 5 * (12 * (123 * (1234 + 54321) + 4321) + 12) * 5" << endl;
+    q = 25 * (12 * (123 * (1234 + 54321) + 4321) + 12);
+    cout << "Response = " << q;
+    return  0;
+    //Задача 2
     int a, b;
     cout << "Int year = ";
     cin >> a;
     b = (a - 1 ) / 100 + 1;
     cout << "Numbe of the century = " << b << endl;
 
-    // Задача 2
-    double q;
-    cout << "solve example 5 * (12 * (123 * (1234 + 54321) + 4321) + 12) * 5" << endl;
-    q = 25 * (12 * (123 * (1234 + 54321) + 4321) + 12);
-    cout << "Response = " << q;
-    return  0;
+    
 }
